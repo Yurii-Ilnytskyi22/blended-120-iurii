@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-/* #header-region */
+/* #region header */
 
 .header {
  width: 100%;
@@ -69,8 +69,7 @@ a {
     padding: 26px 0;
     align-items: center;
     justify-content: center;
-    }
-
+}
 .nav-link:hover,
 .nav-link:focus {
     font-family: "Poppins", sans-serif;
@@ -117,4 +116,235 @@ a {
 }
 
 
-/* #endheader-region */
+/* #endregion header */
+
+/* #region main page */
+
+.main-page {
+    width: 100%;
+    background-color: #fff;
+}
+
+.main-cotainer {
+    display: flex;
+    margin: 25px 0;
+    width: 1110px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.main-text-container {
+    box-sizing: border-box;
+    padding-top: 112px;
+    padding-right: 35px;
+    padding-bottom: 112px;
+    padding-left: 145px;
+}
+
+.main-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343d;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.main-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.main-button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.start-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #02897a;
+    border-radius: 4px;
+    width: 178px;
+    height: 53px;
+    border: none;
+}
+
+.video-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    width: 164px;
+    height: 23px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+/*#endregion main page*/
+
+/* #region product*/
+
+.product-section {
+    width: 100%;
+    background-color: #fff;
+}
+
+.product-container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.product-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.product-menu {
+    display: flex;
+    gap: 30px;
+    margin-right: 145px;
+    margin-left: 145px;
+    margin-bottom: 50px;
+}
+
+.product-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+    padding-bottom: 13px;
+    
+}
+
+.product-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    background: #02897a;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+/* #endregion product*/
+
+/* #region management*/
+
+.wrapper-management {
+    display: flex;
+
+
+
+}
+
+.manag-text-container {
+    box-sizing: border-box;
+    padding-top: 91px;
+    padding-right: 84px;
+    padding-bottom: 141px;
+    padding-left: 145px;
+    width: 486px;
+    height: 418px;
+}
+
+.manag-hello-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.manag-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.manag-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 30px;
+}
+
+.manag-text-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+
+/* #endregion management*/
+
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
+/* #region*/
+/* #endregion*/
