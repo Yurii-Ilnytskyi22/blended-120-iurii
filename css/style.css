@@ -233,6 +233,18 @@ img {
     list-style: none;
 }
 
+.content {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+
+}
+
 .product-list {
     width: calc((100% - 30px) / 4);
 }
@@ -686,7 +698,17 @@ img {
 }
 
 .promo-title {
-   display: none;
+    
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    overflow: hidden;   
 }
 
 .promo-text {
