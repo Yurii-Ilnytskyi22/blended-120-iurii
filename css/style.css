@@ -28,20 +28,25 @@ img {
 /* #region header */
 
 .header {
- width: 100%;
  background: #fff;
+ 
 }
 
 .conteiner {
-    display: flex;
     margin: 0 auto;
     padding: 24px 0;
     width: 1400px;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
 .main-nav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .logo-link {
@@ -51,11 +56,12 @@ img {
     font-size: 30px;
     color: #173a56;
     margin-right: 237px;
+    
 }
 
 .logo-img {
     padding-right: 16px;
-    
+    display: inline-block;
 }
 
 .menu {
@@ -72,9 +78,10 @@ img {
     color: #22343d;
     text-decoration: none;
     padding: 26px 0;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 19px;
+    display: inline-block;
 }
+
 .nav-link:hover,
 .nav-link:focus {
     font-family: "Poppins", sans-serif;
@@ -125,26 +132,20 @@ img {
 
 /* #region main page */
 
-.main-page {
-    width: 100%;
-    background-color: #fff;
-}
+
 
 .main-cotainer {
     display: flex;
     margin: 25px 0;
-    width: 1110px;
-    justify-content: space-between;
+    max-width: 1110px;
     align-items: center;
-    position: relative;
+    justify-content: center;
 }
 
 .main-text-container {
     box-sizing: border-box;
-    padding-top: 112px;
     padding-right: 35px;
-    padding-bottom: 112px;
-    padding-left: 145px;
+    max-width: 610px;
 }
 
 .main-text {
@@ -164,6 +165,7 @@ img {
     margin: 0;
     margin-bottom: 45px;
 }
+
 
 .main-button {
     display: flex;
@@ -192,8 +194,8 @@ img {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #02897a;
-    width: 164px;
-    height: 23px;
+    width: 178px;
+    height: 53px;
     border: none;
     background-color: #fff;
     text-align: center;
@@ -205,8 +207,7 @@ img {
 /* #region product*/
 
 .product-section {
-    width: 100%;
-    background-color: #fff;
+    padding: 100px 0;
 }
 
 
@@ -228,9 +229,12 @@ img {
 .product-menu {
     display: flex;
     gap: 30px;
-    margin-right: 145px;
-    margin-left: 145px;
-    margin-bottom: 50px;
+    margin: 145px 50px;
+    list-style: none;
+}
+
+.product-list {
+    width: calc((100% - 30px) / 4);
 }
 
 .product-title {
