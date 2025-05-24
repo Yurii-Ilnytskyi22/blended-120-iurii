@@ -665,10 +665,18 @@ img {
 
 .price-value {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     gap: 5px;
     margin-bottom: 16px;
+}
+
+.price-value-span {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    position: relative;
+
 }
 
 .money {
@@ -756,12 +764,10 @@ img {
     list-style: none;
     padding: 0;
     margin: 0;
-    flex-wrap: wrap;
 }
 
 .clients-item {
     width: 327px;
-    height: 240px;
     padding: 30px 35px;
     border: 1px solid #dedede;
     border-radius: 5px;
@@ -779,6 +785,7 @@ img {
     color: #737373;
     max-width: 275px;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .name-client {
@@ -813,6 +820,9 @@ img {
     gap: 15px;
 }
 
+.client-info-text {
+    flex-direction: row;
+}
 
 /* #endregion clients*/
 
