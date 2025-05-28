@@ -9,10 +9,21 @@ body {
     font-family: "Poppins", sans-serif;
     background: #fff;
     margin: 0;
+    font-family: 16px;
 }
 
 ul {
     list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -24,6 +35,8 @@ img {
     height: auto;
 }
 
+/* #region Перша сторінка */
+
 /* #region header */
 
 .header {
@@ -33,54 +46,46 @@ img {
 
 .conteiner {
     margin: 0 auto;
-    padding: 24px 0;
-    width: 1400px;
+    padding: 0 20px;
+    width: 1150px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
 }
 
 .main-nav {
     display: flex;
-    align-items: center;
+    gap: 237px;
 }
 
 .logo-link {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #173a56;
-    margin-right: 237px;
+    line-height: 0.93333;
+    display: flex;
+    gap: 16px;
+    align-items: center;
     
     
-}
-
-.logo-img {
-    padding-right: 16px;
-    padding-left: 100px;
-    display: inline-block;
 }
 
 .menu {
     display: flex;
     gap: 30px;
-    row-gap: 72px;
-    margin-right: 72px;
 }
 
 .nav-link {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    line-height: 1.75;
     color: #22343d;
-    text-decoration: none;
     padding: 26px 0;
-    padding-bottom: 19px;
-    display: inline-block;
+    display: block;
+}
+
+.current {
+    font-weight: 600;
 }
 
 .nav-link:hover,
@@ -93,10 +98,8 @@ img {
 
 .btn-menu {
     display: flex;
-    justify-content: end;
+    margin-left: auto;
     gap: 21px;
-    margin: 0 auto;
-    padding: 16px 148px 0 0;
 }
 
 .btn-in {
@@ -1087,4 +1090,321 @@ img {
 }
 
 /* #endregion footer*/
+/* #endregion Перша сторінка */
+
+
+/* #region Друга сторінка*/
+
+/* #region our clients*/
+
+.clients {
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.our-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343d;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.compani-list {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 141px;
+}
+
+.compani-list {
+    width: calc((100% - 64px) / 4);
+}
+
+/* #endregion our clients*/
+
+/* #region choose product */
+
+.choose-product {
+    background: #f5f5f5;
+    width: 1400px;
+}
+
+.why-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;  
+    display: flex;
+    justify-content: center;
+    margin: 24px auto 50px;
+    
+}
+
+.choose-list {
+    display: flex;
+    margin-bottom: 68px;
+    gap: 30px;
+}
+
+.choose-item {
+    width: calc((100% - 30px) / 3);
+}
+
+.choose-wraper {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    padding: 40px 50px;
+    max-width: 350px;
+}
+
+.why-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #22343d; 
+    margin-bottom: 16px;
+}
+
+.why-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #22343d;
+}
+
+.contents {
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.icon-choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #endregion choose product */
+
+
+
+
+
+
+
+
+/* #region product work*/
+
+
+.how-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 73px;
+}
+
+.work-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-item {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.wrapper-text {
+    max-width: 438px;
+    margin: 49px 88px;
+}
+
+.part-step {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #22343d;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.part-text {
+    display: flex;
+    align-items: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #22343d; 
+    margin-bottom: 16px;
+}
+
+.part-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.how-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.work-btn {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background: #02897a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* #endregion product work*/
+
+
+
+
+/* #region already-received */
+
+.already-received {
+    width: 1400px;
+    height: 626px; 
+    background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+
+.offers-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 93px;
+}
+
+.join-list {
+    display: flex;
+    margin-bottom: 52px;
+    gap: 227px;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-item {
+    flex-direction: column;
+}
+
+.join-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.offers-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+
+.join-descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #000;
+    margin-bottom: 52px;
+}
+
+.join-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* #endregion already-received */
+
+
+
+
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+/* #region */
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Друга сторінка*/
+
+
+
+
+/* #region */
+/* #endregion */
 
