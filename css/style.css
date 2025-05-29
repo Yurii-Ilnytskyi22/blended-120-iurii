@@ -1608,5 +1608,5 @@ img {
 }
 
 .faq-item[open] .faq-icon use {
-    href: url(#icon-minus_circle); }
+    left: url(#icon-minus_circle); }
 /**/
