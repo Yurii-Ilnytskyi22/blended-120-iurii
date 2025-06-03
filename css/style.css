@@ -211,9 +211,19 @@ img {
     
 }
 
+.video-button {
+    text-decoration: none;
+    color: #02897a;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .video-icon {
     fill: #02897a;
     border-radius: 2px;
+    gap: 8px;
 }
 
 /*#endregion main page*/
@@ -1034,6 +1044,8 @@ img {
     width: 325px;
     margin-bottom: 25px;
     margin-top: 30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    
 }
 
 .tel {
@@ -1089,6 +1101,11 @@ img {
     margin-bottom: 40px;
 }
 
+.faq-link {
+    text-decoration: none;
+    color: #22343d;
+}
+
 /* #endregion footer*/
 /* #endregion Перша сторінка */
 
@@ -1140,18 +1157,20 @@ img {
     color: #22343d;  
     display: flex;
     justify-content: center;
-    margin: 24px auto 50px;
+    padding: 24px;
     
 }
 
 .choose-list {
     display: flex;
-    margin-bottom: 68px;
+    padding: 40px 50px;
+    padding-bottom: 68px;
     gap: 30px;
 }
 
 .choose-item {
     width: calc((100% - 30px) / 3);
+    
 }
 
 .choose-wraper {
@@ -1180,24 +1199,32 @@ img {
     color: #22343d;
 }
 
-.contents {
-    border-radius: 19px;
+.icon-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 32px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
+    border-radius: 19px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
 
 .icon-choose {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
 
+.icon-bg.green {background-color: #02897a;}
+.icon-bg.blue {background-color: #4d8dff;}
+.icon-bg.red {background-color: #f03e3d;}
+
+.icon-svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    stroke-width: 2; 
+}
 
 /* #endregion choose product */
 
