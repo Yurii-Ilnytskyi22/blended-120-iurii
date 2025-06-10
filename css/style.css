@@ -1430,7 +1430,7 @@ img {
 /* #endregion Друга сторінка*/
 
 
-
+/* #region Третя сторінка */
 
 /* #region */
 .sp-pricing {
@@ -1580,7 +1580,8 @@ img {
 
 /* #endregion alongside*/
 
-/**/
+/* #region faq */
+
 .faq {
     max-width: 800px;
     margin: 120px auto;
@@ -1636,4 +1637,149 @@ img {
 
 .faq-item[open] .faq-icon use {
     left: url(#icon-minus_circle); }
-/**/
+/* #endregion faq */
+/* #endregion Третя сторінка */
+
+/* #region Четверта сторінка*/
+
+/* #region with product*/
+
+.with-container {
+    display: flex;
+}
+
+
+.title-great {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.49;
+    letter-spacing: -0.03em;
+    color: #22343d;
+}
+
+.text-great {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.60;
+    letter-spacing: -0.03em;
+    color: #22343d;
+}
+
+.btn-wrapper {
+    border: 1px solid #eaeaea;
+    border-radius: 100px;
+    width: 469px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #22343d;
+    margin: 25px 139px 25px 27px;
+}
+
+.btn-join {
+    border-radius: 100px;
+    padding: 24px;
+    width: 117px;
+    height: 50px;  
+    background: #02897a;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* #endregion with product*/
+
+.form {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 52px 50px;
+    width: 868px;
+    height: 670px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.title-message {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.37;
+    letter-spacing: 0em;
+    color: #252b42;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+
+.label-texst {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #22343d;    
+    border: 1px solid #e8e8e8;
+    border-radius: 39px;
+    padding: 19px 20px;
+    width: 768px;
+    height: 54px;
+    background: #f5f5f5;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.label-texst-com {
+    border: 1px solid #e8e8e8;
+    padding: 23px 20px;
+    width: 768px;
+    height: 193px;
+    background: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.form-btn {
+    border-radius: 35px;
+    padding: 18px 38px;
+    width: 145px;
+    height: 52px;
+    background: #02897a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* #endregion Четверта сторінка */
